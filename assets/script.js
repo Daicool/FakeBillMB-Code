@@ -13,6 +13,12 @@ const moneyInput = document.getElementById("moneyInput");
             const inputMoney = moneyInput.value;
             moneyDiv.textContent = inputMoney;
         });
+const magiaodichInput = document.getElementById("magiaodichInput");
+        const magiaodichDiv = document.querySelector(".magiaodich");
+        magiaodichInput.addEventListener("input",function() {
+            const inputmagiaodich = magiaodichInput.value;
+            magiaodichDiv.textContent = inputmagiaodich;
+        });
 
 // const nguoinhanInput = document.getElementById("nguoinhanInput");
 //         const nguoinhanDiv = document.querySelector(".nguoinhan");
