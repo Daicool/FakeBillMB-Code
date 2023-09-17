@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake Bill MB Bank | GLCZ7</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.5.0-beta4/html2canvas.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Fake Bill MB Bank By <a href="https://glcz7.github.io/" target="_blank">GLCZ7</a></h2>
+    </div>
+
+    <div class="TextInputBill">
+        <div class="colorfullTextInput">
+            <input type="text" id="oclockInput" placeholder="Giờ điện thoại: 4:29" required>
+            <input type="text" id="moneyInput" placeholder="Số tiền chuyển: 500,000 VND" required>
+            <input type="text" id="nguoinhanInput" placeholder="Người nhận: GLCZ7" required pattern="">
+            <p id="error-message" style="color: red; display: none;">Không được tạo Fake Bill với NGUYEN TIEN MINH.</p>
+            <input type="text" id="stknguoinhanInput" placeholder="STK người nhận: 294******" required>
+            <p id="error-message2" style="color: red; display: none;">Không được tạo Fake Bill với NGUYEN TIEN MINH.</p>
+            <input type="text" id="nganhangInput" placeholder="Ngân hàng người nhận: Quân Đội (MB)" required>
+            <input type="text" id="taikhoannguonInput" placeholder="STK người gửi: 6464*******" required>
+            <input type="text" id="tentaikhoannguonInput" placeholder="Người chuyển: NGUYEN TIEN MINH" required>
+            <input type="text" id="noidungckInput" placeholder="Nội dung: NGUYEN TIEN MINH" required>
+            <input type="text" id="thoigianInput" placeholder="Thời gian chuyển khoản: 4:29:07, 29/4/2023" required>
+            <input type="text" id="magiaodichInput" placeholder="Mã giao dịch: FT123456789" required>
+            <input type="file" id="anhnganhangInput" style="border: none;">
+            <div class="generate">
+                <div class="full-generate">
+                    <button onclick="captureAndDownload()">Generate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Coded By <a href="https://glcz7.github.io/" target="_blank">GLCZ7</a>- Nguyễn Tiến Minh</p>
+    </div>
+    <div class="bill" id="download-bill">
+        <div class="border-bill">
+            <div class="clock"></div>
+            <div class="money"></div>
+            <div class="nguoinhan"></div>
+            <div class="stknguoinhan"></div>
+            <div class="nganhang"></div>
+            <div class="anhnganhang">
+                <img id="anhnganhangPreview" src="">
+            </div>
+            <div class="taikhoannguon"></div>
+            <div class="tentaikhoannguon"></div>
+            <div class="noidungck"></div>
+            <p>chuyen khoan</p>
+            <div class="image-mbbank">
+                <div class="thoigian"></div>
+                <div class="magiaodich"></div>
+                <img src="./assets/image/mb.png" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="./assets/script.js"></script>
+
+</html>
+<!-- /* Created By GLCZ7 - NGUYEN TIEN MINH 
+Vui lòng không sao chép , có sao chép thì cre vào */ -->
